@@ -7,7 +7,6 @@ int main(){
     int sudokuSize = 0;
     scanf("%d\n", &sudokuSize);
         
-
     SuTable* Table = (SuTable*)malloc(sizeof(SuTable));
     //инициализация судоку таблицы и стека изменений
     SuTableInit(Table, sudokuSize);
