@@ -35,7 +35,6 @@ typedef struct ChangeStack{
 //--------------------------------------------------------------------------------------------------------------------
 
 
-
 //Функции инициализации и освобождения памяти для судоку
 void SuTableInit(SuTable* Table, int cntOfCells);
 void SuTableFree(SuTable* Table);
