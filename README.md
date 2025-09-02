@@ -1,3 +1,7 @@
+Here is a Sudoku Solving Project made using Constraint Propagation Alghorithm plus some Heuristics (MRV+Degree)
+Below is the instruction how to launch and test this project on Russian
+
+
 Вкратце, вводим в input.txt:
 1 строка - N размерность судоку
 Остальные строки - N строк по N чисел, разделенных пробелами (если клетка пустая - то записываем 0)
