@@ -8,7 +8,6 @@ int getIntLen(int num){
     return len;
 }
 
-
 //------------------------------------------------Отображение Таблички--------------------------------------------------
 void printNlayer(int cellCnt, char specific){
     printf("     ");
