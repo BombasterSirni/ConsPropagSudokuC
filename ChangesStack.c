@@ -8,6 +8,7 @@ void ChangeStackInit(ChangeStack* stack, int capacity){
     stack->top = 0;
 }
 
+
 void ChangeStackPush(ChangeStack* stack, int row, int column, int oldValue, unsigned long long oldDomain, int oldCntOfEmpty){ 
     
     Change* change = &stack->changes[stack->top++]; //берем указатель на первую незанятую ячейку в стеке изменений
@@ -35,6 +36,7 @@ void ChangesStackBackTrack(ChangeStack* stack, SuTable* Table, int backtrackTop)
         Table->cntOfEmpty = change->cntOfEmpty;
     }
 }
+
 
 // функция очистки стека
 void ChangeStackFree(ChangeStack* stack){
